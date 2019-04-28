@@ -102,4 +102,5 @@
   <contents xsi:type="pptp:PuppetType" name="variant" documentation="&lt;p>A &lt;code>Variant&lt;/code> type represents a disjunct set of types. (Other terms used for this in other languages are Discrimination Union, Disjoint Union, Variant Record, Tagged Union).&lt;/p>" superTypes="//@contents.0">
     <parameters name="types" documentation="The list of types that this variant represents." required="true" type="//@contents.23" varargs="true"/>
   </contents>
+  <contents xsi:type="pptp:PuppetType" name="sensitive" documentation="&lt;p>Represents sensitive string.&lt;/p>" superTypes="//@contents.20"/>
 </pptp:PuppetDistribution>
