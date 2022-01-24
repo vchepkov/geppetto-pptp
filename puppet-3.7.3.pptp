@@ -36,6 +36,7 @@
     <contents xsi:type="pptp:TPVariable" name="clientbucketdir" documentation="Where FileBucket files are stored locally."/>
     <contents xsi:type="pptp:TPVariable" name="clientyamldir" documentation="The directory in which client-side YAML data is stored."/>
     <contents xsi:type="pptp:TPVariable" name="code" documentation="Code to parse directly. This is essentially only used by puppet, and should only be set if you&#x2019;re writing your own Puppet executable."/>
+    <contents xsi:type="pptp:TPVariable" name="codedir" documentation="The main directory for Puppet code and data."/>
     <contents xsi:type="pptp:TPVariable" name="color" documentation="Whether to use colors when logging to the console. Valid values are ansi (equivalent to true), html (mostly used during testing with TextMate), and false, which produces no color."/>
     <contents xsi:type="pptp:TPVariable" name="confdir" documentation="The main Puppet configuration directory. The default for this parameter is calculated based on the user. If the process is running as root or the user that Puppet is supposed to run as, it defaults to a system directory, but if it&#x2019;s running as any other user, it defaults to being in the user&#x2019;s home directory."/>
     <contents xsi:type="pptp:TPVariable" name="config" documentation="The configuration file for doc."/>
