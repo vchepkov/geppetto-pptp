@@ -219,6 +219,12 @@
   <functions documentation="Return binary file" name="binary_file" rValue="true"/>
   <functions documentation="Joins the values of an Array into a string with elements separated by a delimiter" name="join" rValue="true"/>
   <functions documentation="Returns a flat Array produced from its possibly deeply nested given arguments" name="flatten" rValue="true"/>
+  <functions documentation="Returns a new string with the record separator character(s) removed" name="chomp" rValue="true"/>
+  <functions documentation="Sorts an Array" name="sort" rValue="true"/>
+  <functions documentation="Returns an Integer value rounded to the nearest value" name="round" rValue="true"/>
+  <functions documentation="Converts a String, Array or Hash into upper case" name="upcase" rValue="true"/>
+  <functions documentation="Converts a String, Array or Hash into lower case" name="downcase" rValue="true"/>
+  <functions documentation="Returns a value for a sequence of given keys/indexes" name="dig" rValue="true"/>
   <functions documentation="Get the value from a variable" name="getvar" rValue="true"/>
   <functions documentation="Returns true if the given argument is an empty collection of values" name="empty" rValue="true"/>
   <functions documentation="Return mysql password" name="mysql::password" rValue="true"/>
