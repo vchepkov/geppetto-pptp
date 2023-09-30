@@ -216,6 +216,7 @@
   <functions documentation="Mark class as private" name="assert_private" rValue="false"/>
   <functions documentation="Check os class" name="common::os" rValue="true"/>
   <functions documentation="Ensure package is installed" name="stdlib::ensure_packages" rValue="false"/>
+  <functions documentation="Merge hashes" name="stdlib::merge" rValue="true"/>
   <functions documentation="Return binary file" name="binary_file" rValue="true"/>
   <functions documentation="Joins the values of an Array into a string with elements separated by a delimiter" name="join" rValue="true"/>
   <functions documentation="Returns a flat Array produced from its possibly deeply nested given arguments" name="flatten" rValue="true"/>
