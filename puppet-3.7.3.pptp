@@ -218,6 +218,7 @@
   <functions documentation="Ensure package is installed" name="stdlib::ensure_packages" rValue="false"/>
   <functions documentation="Merge hashes" name="stdlib::merge" rValue="true"/>
   <functions documentation="Return binary file" name="binary_file" rValue="true"/>
+  <functions documentation="Check if class is present in catalog" name="is_classified_with" rValue="true"/>
   <functions documentation="Joins the values of an Array into a string with elements separated by a delimiter" name="join" rValue="true"/>
   <functions documentation="Returns a flat Array produced from its possibly deeply nested given arguments" name="flatten" rValue="true"/>
   <functions documentation="Returns a new string with the record separator character(s) removed" name="chomp" rValue="true"/>
