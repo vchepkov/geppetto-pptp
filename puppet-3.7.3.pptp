@@ -216,6 +216,7 @@
   <functions documentation="Mark class as private" name="assert_private" rValue="false"/>
   <functions documentation="Check os class" name="common::os" rValue="true"/>
   <functions documentation="Ensure package is installed" name="stdlib::ensure_packages" rValue="false"/>
+  <functions documentation="Returns rundom string" name="stdlib::fqdn_rand_string" rValue="true"/>
   <functions documentation="Merge hashes" name="stdlib::merge" rValue="true"/>
   <functions documentation="Return binary file" name="binary_file" rValue="true"/>
   <functions documentation="Check if class is present in catalog" name="is_classified_with" rValue="true"/>
