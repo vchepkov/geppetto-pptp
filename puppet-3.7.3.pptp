@@ -215,8 +215,9 @@
   <functions documentation="Return apache password" name="apache::pw_hash" rValue="true"/>
   <functions documentation="Mark class as private" name="assert_private" rValue="false"/>
   <functions documentation="Check os class" name="common::os" rValue="true"/>
+  <functions documentation="This function encrypts a string on the server, and then decrypts it on the agent during catalog application" name="node_encrypt::secret" rValue="true"/>
   <functions documentation="Ensure package is installed" name="stdlib::ensure_packages" rValue="false"/>
-  <functions documentation="Returns rundom string" name="stdlib::fqdn_rand_string" rValue="true"/>
+  <functions documentation="Generates a random alphanumeric string" name="stdlib::fqdn_rand_string" rValue="true"/>
   <functions documentation="Merge hashes" name="stdlib::merge" rValue="true"/>
   <functions documentation="Return binary file" name="binary_file" rValue="true"/>
   <functions documentation="Check if class is present in catalog" name="is_classified_with" rValue="true"/>
@@ -282,6 +283,7 @@
   <functions documentation="Log a message on the server at level emerg." name="emerg"/>
   <functions documentation="Log a message on the server at level crit." name="crit"/>
   <functions documentation="Marks sensitive data" name="Sensitive" rValue="true"/>
+  <functions documentation="Unwrap sensitive data" name="unwrap" rValue="true"/>
   <functions documentation="Returns size of an object" name="length" rValue="true"/>
   <providers name="crontab" typeName="cron"/>
   <providers name="mcxcontent" documentation="MCX Settings management using DirectoryService on OS X.&#xA;&#xA;  This provider manages the entire MCXSettings attribute available&#xA;  to some directory services nodes.  This management is 'all or nothing'&#xA;  in that discrete application domain key value pairs are not managed&#xA;  by this provider.&#xA;&#xA;  It is recommended to use WorkGroup Manager to configure Users, Groups,&#xA;  Computers, or ComputerLists, then use 'ralsh mcx' to generate a puppet&#xA;  manifest from the resulting configuration.&#xA;&#xA;  Original Author: Jeff McCune (mccune.jeff@gmail.com)" typeName="mcx"/>
